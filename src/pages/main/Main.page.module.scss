@@ -1,0 +1,9 @@
+@import '../../styles/conditions.scss';
+
+.main{
+    background-image: url(../../assets/img/Background-Img/back1.jpg);
+    @include bgImage();
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+}

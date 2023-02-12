@@ -1,0 +1,12 @@
+$main-color: #fff;
+$secondary-color: #ff6348;
+$secondary-color_2: #ff2cdf;
+$btn-background-color: #42f584;
+$btn-shadow: 0 0 5px #42f584, 0 0 25px #42f584, 0 0 50px #42f584, 0 0 200px #42f584;
+
+@mixin bgImage{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}

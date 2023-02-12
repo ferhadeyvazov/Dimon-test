@@ -1,0 +1,53 @@
+.section{
+    padding: 1.5rem 0;
+    @media screen and (min-width: 425px) {
+        padding: 3rem 0;
+    }
+}
+.main{
+    padding: 7rem 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+    @media screen and (min-width: 425px) {
+        width: 85%;
+    }
+    @media screen and (min-width: 768px) {
+        width: 80%;
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.split{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primaryText{
+    font-size: 2rem;
+    @media screen and (min-width: 454px) {
+        font-size: 3rem;
+    }
+}
+
+.secondaryText{
+    font-size: 1.1rem;
+    line-height: 35px;
+    @media screen and (min-width: 768px) {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 50px;
+    }
+}

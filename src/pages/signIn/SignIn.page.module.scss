@@ -1,0 +1,10 @@
+@import '../../styles/conditions.scss';
+
+.signIn{
+    background-image: url(../../assets/img/Background-Img/back2.jpg);
+    @include bgImage();
+    .signIn__container{
+        height: 100vh;
+
+    }
+}
